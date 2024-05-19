@@ -1,7 +1,7 @@
-"use server";
+"use client";
 import { Page, Navbar, Block, Link } from "@/lib/framework7";
 
-export default async function Home() {
+export default function Home() {
   return (
     <Page>
       <Navbar title="Framework7 Next.js" />
